@@ -33,6 +33,7 @@
 		2BFFC74D1E6845E2008E4641 /* normal.aac in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFC7391E6845E2008E4641 /* normal.aac */; };
 		2BFFC74E1E6845E2008E4641 /* sendcard.aac in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFC73A1E6845E2008E4641 /* sendcard.aac */; };
 		2BFFC74F1E6845E2008E4641 /* win.aac in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFC73B1E6845E2008E4641 /* win.aac */; };
+		2BFFC7521E68577B008E4641 /* XMGAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFC7511E68577B008E4641 /* XMGAudioTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,8 @@
 		2BFFC7391E6845E2008E4641 /* normal.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.aac; sourceTree = "<group>"; };
 		2BFFC73A1E6845E2008E4641 /* sendcard.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendcard.aac; sourceTree = "<group>"; };
 		2BFFC73B1E6845E2008E4641 /* win.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.aac; sourceTree = "<group>"; };
+		2BFFC7501E68577B008E4641 /* XMGAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAudioTool.h; sourceTree = "<group>"; };
+		2BFFC7511E68577B008E4641 /* XMGAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAudioTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				2BFFC7151E68419E008E4641 /* AppDelegate.m */,
 				2BFFC7171E68419E008E4641 /* ViewController.h */,
 				2BFFC7181E68419E008E4641 /* ViewController.m */,
+				2BFFC7501E68577B008E4641 /* XMGAudioTool.h */,
+				2BFFC7511E68577B008E4641 /* XMGAudioTool.m */,
 				2BFFC71A1E68419E008E4641 /* Main.storyboard */,
 				2BFFC71D1E68419E008E4641 /* Assets.xcassets */,
 				2BFFC71F1E68419E008E4641 /* LaunchScreen.storyboard */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFFC7191E68419E008E4641 /* ViewController.m in Sources */,
+				2BFFC7521E68577B008E4641 /* XMGAudioTool.m in Sources */,
 				2BFFC7161E68419E008E4641 /* AppDelegate.m in Sources */,
 				2BFFC7131E68419E008E4641 /* main.m in Sources */,
 			);
